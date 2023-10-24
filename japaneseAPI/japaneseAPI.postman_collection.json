@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "35f68cc8-b770-44dc-bae4-38cd608e940a",
+		"name": "japaneseAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29938338"
+	},
+	"item": [
+		{
+			"name": "Hiragana",
+			"item": [
+				{
+					"name": "hiraganas",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "hiraganas/{hiragana}",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "hiraganas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hiragana\": \"qwe\",\r\n    \"romaji\": \"qwrgwgiqfifmnkfnnjasnfgf\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/hiraganas/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"hiraganas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hiraganas/{hiragana}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hiragana\": \"tyuiop\",\r\n    \"romaji\": \"mnmnmm\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/hiraganas/47",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"hiraganas",
+								"47"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hiraganas/{hiragana}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/hiraganas/47",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"hiraganas",
+								"47"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Katakana",
+			"item": [
+				{
+					"name": "katakanas",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "katakanas/{katakana}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/katakanas/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"katakanas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "katakanas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/katakanas/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"katakanas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "katakanas/{katakana}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"katakana\": \"qwe\",\r\n    \"romaji\": \"trtu\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/katakanas/47",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"katakanas",
+								"47"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "katakanas/{katakana}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/katakanas/47",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"katakanas",
+								"47"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
